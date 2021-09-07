@@ -3,10 +3,13 @@
 #include <string.h>
 
 void change(char *chaine);
+int lengthChar(char *chaine);
 
 int main(void)
 {
-    char chaine[] = "salut";
+    char chaine[255];
+    printf("Entrez un mot: ");
+    fgets(chaine, 255, stdin);
     change(chaine);
     printf("%s", chaine);
     return 0;

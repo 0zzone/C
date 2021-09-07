@@ -86,6 +86,5 @@ int longueur(Stack st){
         l++;
         st = st->next;
     }
-
     return l;
 }
