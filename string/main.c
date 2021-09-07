@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 void change(char *chaine);
-int lengthChar(char *chaine);
 
 int main(void)
 {
