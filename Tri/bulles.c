@@ -4,7 +4,7 @@
 // Main code
 int main(){
 
-	int tab[] = {3,8,2,0, 9,34,21,90};
+	int tab[] = {3,8,2,1, 9,34,21,90};
 	int taille = sizeof(tab)/sizeof(int);
 
 	for(int k=0; k<taille-1; k++){
@@ -17,6 +17,7 @@ int main(){
 		}
 	}
 
+	
 	for(int l=0; l<taille; l++){
 		printf("%d ", tab[l]);
 	}
